@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -6,6 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import profileImage from "../assets/Profile/Compressed Image.png";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -36,6 +36,8 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  console.log("ww",profileImage);
+  
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -43,29 +45,45 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I am a passionate Software Engineer with experience in building scalable
-        and innovative web and mobile applications. Over the years, I have honed
-        my skills in a variety of programming languages and frameworks,
-        including Python, Django, React, Tailwind CSS, PHP, Laravel, Java, C++,
-        Flutter, and Dart. I thrive on problem-solving and enjoy leveraging my
-        diverse skill set to create efficient and user-friendly solutions.
-        <br></br>
-        <br></br>
-        From full-stack development to mobile app creation, I have worked on a
-        variety of projects that challenge me to push the boundaries of what’s
-        possible.
-        <br></br>
-        <br></br>I am always eager to learn new technologies and apply them to
-        real-world scenarios to improve user experience and streamline
-        processes. Whether it's optimizing server-side performance, designing
-        intuitive UIs, or developing cross-platform mobile apps, I am dedicated
-        to delivering high-quality software that meets both business and user
-        needs.
-      </motion.p>
+      <div className="mt-10 flex flex-col-reverse md:flex-row items-center gap-10">
+        {/* Text Section */}
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          I am a passionate Software Engineer with experience in building
+          scalable and innovative web and mobile applications. Over the years, I
+          have honed my skills in a variety of programming languages and
+          frameworks, including Python, Django, React, Tailwind CSS, PHP,
+          Laravel, Java, C++, Flutter, and Dart. I thrive on problem-solving and
+          enjoy leveraging my diverse skill set to create efficient and
+          user-friendly solutions.
+          <br />
+          <br />
+          From full-stack development to mobile app creation, I have worked on a
+          variety of projects that challenge me to push the boundaries of what’s
+          possible.
+          <br />
+          <br />I am always eager to learn new technologies and apply them to
+          real-world scenarios to improve user experience and streamline
+          processes. Whether it's optimizing server-side performance, designing
+          intuitive UIs, or developing cross-platform mobile apps, I am
+          dedicated to delivering high-quality software that meets both business
+          and user needs.
+        </motion.p>
+
+        {/* Image Section */}
+        <motion.div
+          variants={fadeIn("left", "spring", 0.5, 1)}
+          className="w-full  flex justify-center"
+        >
+          <img
+            src={profileImage}
+            alt="Profile"
+            className="max-w-full h-[550px] object-contain -mt-44"
+          />
+        </motion.div>
+      </div>
 
       <div className="mt-20 flex justify-center items-center flex-wrap gap-10">
         {services.map((service, index) => (
