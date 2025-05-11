@@ -42,6 +42,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import bangla_ai from "./bangla_ai.jpg";
+import Electron_bd from "./Projects/Electron-bd.png";
+import Shopnoneer from "./Projects/Shopnoneer.png";
+import Syntaxx from "./Projects/Syntaxx.png";
 import cintracon_2 from "./ss_home.jpg";
 import c_v2 from "./c_v2.jpg";
 import c_v1 from "./c_v1.jpg";
@@ -66,6 +69,9 @@ import faiyaz from "./faiyaz.jpg";
 import asif from "./asif.jpg";
 
 export {
+  Electron_bd,
+  Shopnoneer,
+  Syntaxx,
   logo,
   jisan,
   innovation_lab,

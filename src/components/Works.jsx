@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 
 import { motion } from "framer-motion";
@@ -16,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_preview_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -31,7 +31,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-52 object-fill rounded-xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -53,15 +53,20 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap gap-2 items-center">
           {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
+            <p key={`${name}-${tag.name}`} className={`text-sm ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
+
+          {/* Live Preview Button-like Text */}
+          <button
+            onClick={() => window.open(live_preview_link, "_blank")}
+            className="ml-auto bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-medium py-1.5 px-2 rounded-lg transition duration-300"
+          >
+            🔗 Preview
+          </button>
         </div>
       </Tilt>
     </motion.div>

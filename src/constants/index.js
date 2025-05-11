@@ -30,7 +30,11 @@ import {
   nawmi,
   asif,
   faiyaz,
-  shafayat
+  shafayat,
+  Electron_bd,
+  Shopnoneer,
+  Syntaxx
+
 } from "../assets";
 
 export const navLinks = [
@@ -168,7 +172,6 @@ const experiences = [
   },
 ];
 
-
 const educations = [
   {
     title: "Computer Science & Engineering ( CSE )",
@@ -224,7 +227,6 @@ const educations = [
   },
 ];
 
-
 const testimonials = [
   {
     testimonial:
@@ -262,34 +264,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "CINTRACON v2.0",
+    name: "Nimtola Future Town Housing",
     description:
-      "A web based Social Platform for My University Students where student can find each other and can build up their network and comminication. This is a updated version of CINTRACON where you can find CINTRACIN AI and many advanced Features.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: c_v2,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "CINTRACON",
-    description:
-      "A comprehensive web platform that allows students to find their senior, junior, alumni to build up their connections with them. This is my first innovative project of my life. After launching CINTRACON we got 100 users within few months.",
+      "Nimtola Future Town Housing is a real estate company offering ready-to-build plots and modern apartments. Their official website showcases property listings with images, maps, pricing, and booking options. It’s fully responsive, easy to navigate, and includes a CMS for quick content updates.",
     tags: [
       {
         name: "php",
@@ -304,98 +281,127 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: c_v1,
+    image: c_v2,
     source_code_link: "https://github.com/",
+    live_preview_link: "https://github.com/",
   },
   {
-    name: "Bangla AI",
+    name: "Electron Engineering and Power Services",
     description:
-      "Bangla AI is an advanced AI-powered platform built to support Bengali ethnic media journalists in New York City. From Bangla-AI you can easily Translate your English to Bangla or Bangla to English Text very accurately.",
+      "Electron Engineering and Power Services is a corporate website for a company specializing in electronic equipment and power solutions. It showcases products, services, and expertise with a clean, responsive design and an easy inquiry system for client quotes and info.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "django-rest-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "open-ai",
+        name: "laravel",
         color: "pink-text-gradient",
       },
+      {
+        name: "inertia",
+        color: "green-text-gradient",
+      },
     ],
-    image: bangla_ai,
-    source_code_link: "https://github.com/",
+    image: Electron_bd,
+    source_code_link: "https://github.com/Eshrak20/electronbdProject",
+    live_preview_link: "https://electron-bd.com/",
   },
   {
-    name: "Shopnoo Neer App",
+    name: "Shopnoo Neer Web",
     description:
-      "Shopnooneer a Real Estate App that delivers all the information of plot, flat, and many properties near you. You can easily get all the information abour that selling property in your area.",
+      "Shopnooneer is a real estate app designed to help you find detailed information about plots, flats, and various properties near you. Whether you're looking to buy or explore available properties in your area, the app provides accurate listings, pricing, and location details. With an easy-to-use interface, Shopnooneer makes property searching simple, fast.",
     tags: [
       {
-        name: "flutter",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
+        name: "laravel",
         color: "pink-text-gradient",
       },
     ],
-    image: b_app,
-    source_code_link: "https://github.com/",
+    image: Shopnoneer,
+    source_code_link: "https://github.com/mahbub-shohag/shopnoneer_client",
+    live_preview_link: "https://shopnoneer.com/",
   },
   {
-    name: "Project Management Software",
+    name: "Syntax Soft System",
     description:
-      "Where you can Rent, Lease a Property for a certain time period. This is a multi vendor authenticated software wher User and Admin both can login and use their Specific Features.",
+      "Syntax Soft System is the official website of an innovative software company offering digital solutions. It showcases services, projects, team expertise, and client testimonials with a modern, responsive design. The site also features career listings and a contact form for easy client engagement.",
     tags: [
       {
-        name: "java",
+        name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "oop",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scene builder",
-        color: "pink-text-gradient",
-      },
     ],
-    image: pms,
-    source_code_link: "https://github.com/",
+    image: Syntaxx,
+    source_code_link: "https://syntaxss.com",
+    live_preview_link: "https://github.com/Eshrak20/SyntaxSoftProject",
   },
   {
-    name: "FarmApp",
+    name: "Time Tracker",
     description:
-      "This is a Top Secret project of USA, I worked here to develop API for their Mobile Application. That was a kinda complex backend related with machience learning and deep learning.",
+      "Time Tracker is a mobile app designed for ice-breaking service providers to monitor employee work hours and material usage in real time. Employees can check in/out at job sites and log materials like salt and melters. An admin dashboard offers performance reports, job logs, and automated invoicing based on time and resources used.",
     tags: [
       {
         name: "laravel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "aws",
         color: "pink-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "green-text-gradient",
       },
     ],
     image: farmapp,
     source_code_link: "https://github.com/",
+    live_preview_link: "https://github.com/",
   },
-  
+  {
+    name: "Firm App",
+    description:
+      "Firm is a machine learning–powered mobile app that helps detect and monitor agricultural pests using smart imaging and IoT technology. Field devices capture images of bug traps, which are analyzed in real time to identify pests. The app delivers detailed reports, trends, and recommendations, enabling farmers to take timely action and protect crop yields.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: farmapp,
+    source_code_link: "https://github.com/",
+    live_preview_link: "https://github.com/",
+  },
+  {
+    name: "Bizzy Deals App",
+    description:
+      "Bizzy Deals is a fun, gamified mobile app that lets users discover and claim limited-time restaurant deals. Users earn points and climb a leaderboard based on their activity, adding a competitive edge. An admin panel allows easy deal management and user tracking.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: farmapp,
+    source_code_link: "https://github.com/",
+    live_preview_link: "https://github.com/",
+  },
+  {
+    name: "Time Tracker",
+    description:
+      "Time Tracker is a mobile app designed for ice-breaking service providers to monitor employee work hours and material usage in real time. Employees can check in/out at job sites and log materials like salt and melters. An admin dashboard offers performance reports, job logs, and automated invoicing based on time and resources used.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: farmapp,
+    source_code_link: "https://github.com/",
+    live_preview_link: "https://github.com/",
+  },
 ];
 
-export { services, technologies, experiences, educations, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  educations,
+  testimonials,
+  projects,
+};
