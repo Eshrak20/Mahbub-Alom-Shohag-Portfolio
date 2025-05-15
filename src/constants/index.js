@@ -3,13 +3,13 @@ import {
   html,
   css,
   reactjs,
+  bootstrap,
+  restApi,
+  mysql,
+  php,
   tailwind,
   git,
-  bangla_ai,
   c_v2,
-  c_v1,
-  pms,
-  b_app,
   web1,
   backend1,
   ml_dl,
@@ -33,8 +33,7 @@ import {
   shafayat,
   Electron_bd,
   Shopnoneer,
-  Syntaxx
-
+  Syntaxx,
 } from "../assets";
 
 export const navLinks = [
@@ -73,48 +72,40 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "PHP",
+    icon: php,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "laravel",
+    icon: laravel,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Mysql",
+    icon: mysql,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "django",
-    icon: django,
+    name: "RestApi",
+    icon: restApi,
   },
   {
     name: "postgresql",
     icon: postgresql,
   },
   {
-    name: "flutter",
-    icon: flutter,
+    name: "React JS",
+    icon: reactjs,
   },
   {
-    name: "laravel",
-    icon: laravel,
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
 ];
 

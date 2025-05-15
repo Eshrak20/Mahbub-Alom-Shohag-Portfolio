@@ -16,8 +16,8 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        // background: "#1d1836",
-        background: "#03162e",
+        background: "#1d1836",
+        // background: "#03162e",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
@@ -61,7 +61,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+        <p className={`${styles.sectionSubText} text-center -mt-96`}>
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>

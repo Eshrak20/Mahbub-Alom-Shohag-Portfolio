@@ -17,6 +17,8 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import restApi from "./tech/restApi.png"
+import bootstrap from "./tech/Bootstrap.png"
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -55,6 +57,7 @@ import web1 from "./web1.png";
 import backend1 from "./backend1.png";
 import ml_dl from "./ml_dl.png";
 import android from "./android.png";
+
 import innovation_lab from "./company/innovation_lab.png";
 import beetlit from "./company/beetlit_logo.png";
 import hacker from "./company/hckr.png";
@@ -98,6 +101,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  restApi,
+  bootstrap,
   redux,
   tailwind,
   typescript,
