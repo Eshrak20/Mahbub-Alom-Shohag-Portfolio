@@ -31,7 +31,7 @@ import mysql from "./tech/mysql.png";
 import postgresql from "./tech/postgresql.png";
 import java from "./tech/java.png";
 import python from "./tech/python.png";
-import cloudinary from "./tech/Cloudinary.png";
+// import cloudinary from "./tech/Cloudinary.png";
 import firebase from "./tech/firebase.png";
 
 import meta from "./company/meta.png";
@@ -52,7 +52,7 @@ import c_v2 from "./c_v2.jpg";
 import c_v1 from "./c_v1.jpg";
 import pms from "./pms.jpg";
 import spnr from "./spnr.jpg";
-import b_app from "./b_app.jpg";
+import b_app from "./spnr.jpg";
 import web1 from "./web1.png";
 import backend1 from "./backend1.png";
 import ml_dl from "./ml_dl.png";
@@ -64,6 +64,11 @@ import hacker from "./company/hckr.png";
 import uap from "./company/uap_logo.png";
 import mist from "./company/mist.png";
 import bnmpc from "./company/bnmpc.png";
+import mohammdpurGovt from "./company/govtMohammdpur.png";
+import uiu from "./company/uiu.png";
+import jagnnat from "./company/jaganath.png";
+import NewHorizon from "./company/newHorizon.png";
+import buet from "./company/buet.png";
 import fbic from "./company/fbic.png";
 import farmapp from "./farmapp.jpg";
 import nawmi from "./nawmi.jpg";
@@ -72,6 +77,11 @@ import faiyaz from "./faiyaz.jpg";
 import asif from "./asif.jpg";
 
 export {
+  mohammdpurGovt,
+  buet,
+  uiu,
+  jagnnat,
+  NewHorizon,
   Electron_bd,
   Shopnoneer,
   Syntaxx,
@@ -130,7 +140,7 @@ export {
   mysql,
   postgresql,
   php,
-  cloudinary,
+  // cloudinary,
   java,
   firebase,
   laravel,
