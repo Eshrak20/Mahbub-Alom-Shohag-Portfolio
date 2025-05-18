@@ -36,8 +36,8 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
-  console.log("ww",profileImage);
-  
+  console.log("ww", profileImage);
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -51,25 +51,32 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I am a passionate Software Engineer with experience in building
-          scalable and innovative web and mobile applications. Over the years, I
-          have honed my skills in a variety of programming languages and
-          frameworks, including Python, Django, React, Tailwind CSS, PHP,
-          Laravel, Java, C++, Flutter, and Dart. I thrive on problem-solving and
-          enjoy leveraging my diverse skill set to create efficient and
-          user-friendly solutions.
+          I am a dedicated Software Engineer with years of experience working
+          across various software companies, taking on dynamic roles such as Web
+          Developer, Testing Engineer, and Front-End Designer. My passion lies
+          in building scalable, secure, and high-performance applications that
+          solve real-world problems.
           <br />
           <br />
-          From full-stack development to mobile app creation, I have worked on a
-          variety of projects that challenge me to push the boundaries of what’s
-          possible.
+          My technical expertise spans across multiple domains. I specialize in
+          Object-Oriented Design and Analysis, and I'm highly proficient in
+          back-end development using technologies like Java (Spring Boot),
+          Groovy on Grails, Node.js, PHP, CodeIgniter, ASP.NET Web Forms, ASP
+          Classic, and ASP.NET MVC. Whether it's designing RESTful APIs or
+          optimizing back-end logic, I ensure reliable and maintainable
+          solutions.
           <br />
-          <br />I am always eager to learn new technologies and apply them to
-          real-world scenarios to improve user experience and streamline
-          processes. Whether it's optimizing server-side performance, designing
-          intuitive UIs, or developing cross-platform mobile apps, I am
-          dedicated to delivering high-quality software that meets both business
-          and user needs.
+          <br />
+          I have solid experience working with relational and non-relational
+          databases including Oracle, MySQL, MS SQL Server, and MongoDB. On the
+          client side, I create intuitive and responsive interfaces using
+          AngularJS, Angular, JavaScript, jQuery, HTML, CSS, and Tailwind —
+          combining clean design with usability.
+          <br />
+          <br />I believe in continuous learning and adapting to new challenges.
+          My goal is to craft high-quality software that not only meets
+          technical requirements but also enhances user experience and drives
+          business growth.
         </motion.p>
 
         {/* Image Section */}

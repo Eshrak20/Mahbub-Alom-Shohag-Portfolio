@@ -12,17 +12,10 @@ import {
   ml_dl,
   android,
   innovation_lab,
-  beetlit,
-  uap,
   fbic,
-  hacker,
   farmapp,
   postgresql,
   laravel,
-  nawmi,
-  asif,
-  faiyaz,
-  shafayat,
   Electron_bd,
   Shopnoneer,
   Syntaxx,
@@ -108,55 +101,67 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Backend Developer",
-    company_name: "Innovation Lab",
-    icon: innovation_lab,
+    title:
+      "Assistant Coordinator - Web Service and Front-end Software Development",
+    company_name: "Transparency International Bangladesh",
+    icon: innovation_lab, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
-    date: "March 2024 - Present",
+    date: "September 2022 - February 2025",
     points: [
-      "Developing and maintaining web applications backend using Laravel and other related technologies.",
-      "Completed an USA Project FarmApp",
-      "Completed a Canadian Project TimeTracker ",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Web App Development, Mobile App development, Data Analysis",
+      "Coordinate third party software teams to develop software",
+      "Provide technical training to internal staff",
     ],
   },
   {
-    title: "Android Developer",
-    company_name: "Innovation Lab",
-    icon: innovation_lab,
+    title: "Assistant Programmer",
+    company_name: "JiViTA Bangladesh (Johns Hopkins University)",
+    icon: innovation_lab, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
-    date: "March 2024 - Present",
+    date: "February 2020 - September 2022",
     points: [
-      "Developing and maintaining Mobile applications using Flutter.",
-      "Completed Shopnoneer App a real-state Business Application",
-      "Running CINTRACON App a student based social platform",
+      "App and Web-based data collection",
+      "Error Resolution & Data cleaning on entered data",
+      "Live data visualization using REST API",
+      "Data analysis",
+      "Database Backup & Restore",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Beetlit",
-    icon: beetlit,
-    iconBg: "#03162e",
-    date: "Jan 2023 - Jan 2024",
+    title: "Programmer",
+    company_name: "Mysoft Ltd",
+    icon: innovation_lab, // Replace with the actual icon variable
+    iconBg: "#E6DEDD",
+    date: "December 2017 - April 2020",
     points: [
-      "In that time Learnt Backend using Laravel",
-      "Developed Some website using Wordpress",
-      "Developed an Ecommerce Website",
-      "Developed a Sneakers Shopping Website",
+      "Worked as a Java Programmer",
+      "Worked in AngularJS and Bootstrap",
+      "Developed Hospital Based Applications",
     ],
   },
   {
-    title: "Ethical Hacker",
-    company_name: "Self Learning",
-    icon: hacker,
-    iconBg: "#03162e",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Champion of Intra University CTF Contest 1.0",
-      "56th in MIST Leetcon 2023 Contest",
-      "Cryptography, Stegnography, Social Engineering, Sql Injection, Web Pentest, Malware Detection, Vulnerability Assessment ",
-      "Successfully hacked Neiboures Wifi and Friends Gmail Account using Social Engineering",
-    ],
+    title: "Software Engineer",
+    company_name: "SoftRithm IT Ltd",
+    icon: innovation_lab, // Replace with the actual icon variable
+    iconBg: "#E6DEDD",
+    date: "May 2019 - January 2020",
+    points: [],
+  },
+  {
+    title: "Jr. Software Engineer",
+    company_name: "Apsis Solutions Ltd",
+    icon: innovation_lab, // Replace with the actual icon variable
+    iconBg: "#E6DEDD",
+    date: "November 2016 - May 2017",
+    points: ["Software Development"],
+  },
+  {
+    title: "Jr. Web Developer",
+    company_name: "Vintage IT Ltd",
+    icon: innovation_lab, // Replace with the actual icon variable
+    iconBg: "#E6DEDD",
+    date: "April 2015 - December 2015",
+    points: ["Software Development"],
   },
 ];
 
@@ -257,35 +262,35 @@ const educations = [
 const testimonials = [
   {
     testimonial:
-      "Jisan is an incredibly kind and supportive person, his intelligence and problem-solving skills make him stand out in any situation. He is always eager to learn and contribute, making him a valuable asset in any educational setting.He does all tasks dedicatedly & keeps trying with great patience until a problem  is solved.",
-    name: "Nashrah Zakir",
-    designation: "CSE Student",
-    company: "Uap",
-    image: nawmi,
+      "Great developer to work with. Mahbub is an excellent developer with great communication skills and impressive working experience. He consistently delivered quality work on time.",
+    name: "Luis",
+    designation: "Project Manager",
+    company: "Freelance Client",
+    // image: luis, 
   },
   {
     testimonial:
-      "Jisan is one of the most hardworking and resourceful people I know. We've worked on several projects together, and his skills in web development and problem-solving always impress me. More than anything, he's a great friend and an all-around good person who’s always ready to take on new challenges.",
-    name: "Juhair Faiaz",
-    designation: "CSE Student",
-    company: "TTU, USA",
-    image: faiyaz,
+      "Mahbub is an experienced API developer. I am really happy to work with him. He has done the job right and on time, exceeding my expectations with his backend skills.",
+    name: "Luis",
+    designation: "Technical Lead",
+    company: "Colombia Startup",
+    // image: luis2,
   },
   {
     testimonial:
-      "You are excessively a hard working person. I have never seen such a dedicated person like you. You are very loyal to your passion! I've never seen laziness in you.You are very helpful as well as a Good Person also.I know you since many years, I always get extra spark to run when I met you.",
-    name: "Asif Khan",
-    designation: "Civil Engineering Student",
-    company: "IUT",
-    image: asif,
+      "He understood the tasks that should be done and successfully applied his knowledge to provide the best solution. His experience in Spring Boot and RESTful APIs is clearly reflected in his work.",
+    name: "Rifat Ahmed",
+    designation: "Software Consultant",
+    company: "Pennsylvania, USA",
+    // image: rifat, 
   },
   {
     testimonial:
-      "Jisan is a highly skilled professional who brings exceptional attention to detail and creativity to every project. His expertise in various technologies and his dedication to delivering results make him an invaluable asset. Working with Jisan has always been a pleasure, and I look forward to future collaborations.",
-    name: "Shafayat Mayin",
-    designation: "CSE Student",
-    company: "SUT, Australia",
-    image: shafayat,
+      "Shohag is a reliable and highly skilled developer. From UI design with Angular to backend development in PHP and ASP.NET MVC, he handles full-stack tasks with ease and professionalism.",
+    name: "Rifat Ahmed",
+    designation: "Senior Developer",
+    company: "Freelance Projects, USA",
+    // image: rifat2, 
   },
 ];
 
