@@ -1,4 +1,10 @@
 import {
+  apsis,
+  tib,
+  mysoft,
+  jivta,
+  vintage,
+  softr,
   javascript,
   reactjs,
   bootstrap,
@@ -24,6 +30,7 @@ import {
   jagnnat,
   NewHorizon,
   buet,
+  avatar,
 } from "../assets";
 
 export const navLinks = [
@@ -104,7 +111,7 @@ const experiences = [
     title:
       "Assistant Coordinator - Web Service and Front-end Software Development",
     company_name: "Transparency International Bangladesh",
-    icon: innovation_lab, // Replace with the actual icon variable
+    icon: tib, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
     date: "September 2022 - February 2025",
     points: [
@@ -116,7 +123,7 @@ const experiences = [
   {
     title: "Assistant Programmer",
     company_name: "JiViTA Bangladesh (Johns Hopkins University)",
-    icon: innovation_lab, // Replace with the actual icon variable
+    icon: jivta, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
     date: "February 2020 - September 2022",
     points: [
@@ -130,7 +137,7 @@ const experiences = [
   {
     title: "Programmer",
     company_name: "Mysoft Ltd",
-    icon: innovation_lab, // Replace with the actual icon variable
+    icon: mysoft, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
     date: "December 2017 - April 2020",
     points: [
@@ -142,7 +149,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "SoftRithm IT Ltd",
-    icon: innovation_lab, // Replace with the actual icon variable
+    icon: softr, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
     date: "May 2019 - January 2020",
     points: [],
@@ -150,7 +157,7 @@ const experiences = [
   {
     title: "Jr. Software Engineer",
     company_name: "Apsis Solutions Ltd",
-    icon: innovation_lab, // Replace with the actual icon variable
+    icon: apsis, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
     date: "November 2016 - May 2017",
     points: ["Software Development"],
@@ -158,7 +165,7 @@ const experiences = [
   {
     title: "Jr. Web Developer",
     company_name: "Vintage IT Ltd",
-    icon: innovation_lab, // Replace with the actual icon variable
+    icon: vintage, // Replace with the actual icon variable
     iconBg: "#E6DEDD",
     date: "April 2015 - December 2015",
     points: ["Software Development"],
@@ -266,7 +273,7 @@ const testimonials = [
     name: "Luis",
     designation: "Project Manager",
     company: "Freelance Client",
-    // image: luis, 
+    image: avatar,
   },
   {
     testimonial:
@@ -274,7 +281,7 @@ const testimonials = [
     name: "Luis",
     designation: "Technical Lead",
     company: "Colombia Startup",
-    // image: luis2,
+    image: avatar,
   },
   {
     testimonial:
@@ -282,7 +289,7 @@ const testimonials = [
     name: "Rifat Ahmed",
     designation: "Software Consultant",
     company: "Pennsylvania, USA",
-    // image: rifat, 
+    image: avatar,
   },
   {
     testimonial:
@@ -290,7 +297,7 @@ const testimonials = [
     name: "Rifat Ahmed",
     designation: "Senior Developer",
     company: "Freelance Projects, USA",
-    // image: rifat2, 
+    image: avatar,
   },
 ];
 
@@ -314,8 +321,6 @@ const projects = [
       },
     ],
     image: c_v2,
-    source_code_link: "https://github.com/",
-    live_preview_link: "https://github.com/",
   },
   {
     name: "Electron Engineering and Power Services",
@@ -382,8 +387,6 @@ const projects = [
       },
     ],
     image: farmapp,
-    source_code_link: "https://github.com/",
-    live_preview_link: "https://github.com/",
   },
   {
     name: "Firm App",
@@ -396,8 +399,6 @@ const projects = [
       },
     ],
     image: farmapp,
-    source_code_link: "https://github.com/",
-    live_preview_link: "https://github.com/",
   },
   {
     name: "Bizzy Deals App",
@@ -410,8 +411,6 @@ const projects = [
       },
     ],
     image: farmapp,
-    source_code_link: "https://github.com/",
-    live_preview_link: "https://github.com/",
   },
   {
     name: "Time Tracker",
@@ -424,8 +423,6 @@ const projects = [
       },
     ],
     image: farmapp,
-    source_code_link: "https://github.com/",
-    live_preview_link: "https://github.com/",
   },
 ];
 

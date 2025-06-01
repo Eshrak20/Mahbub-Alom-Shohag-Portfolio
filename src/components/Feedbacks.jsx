@@ -38,7 +38,11 @@ const FeedbackCard = ({
         </div>
 
         <img
-          src={image}
+          src={
+            image?.trim()
+              ? image
+              : "https://ui-avatars.com/api/?name=User&background=0D8ABC&color=fff&rounded=true"
+          }
           alt={`feedback_by-${name}`}
           className="w-10 h-10 rounded-full object-cover"
         />

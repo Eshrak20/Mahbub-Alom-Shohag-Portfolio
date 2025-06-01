@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import jisan from "./jisan.png";
+import jisan from "./m.webp";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -76,7 +76,24 @@ import shafayat from "./shafayat.jpg";
 import faiyaz from "./faiyaz.jpg";
 import asif from "./asif.jpg";
 
+import apsis from "./company/apsis.png";
+import tib from "./company/tib.jpg";
+import mysoft from "./company/mysoft.png";
+import jivta from "./company/jivta.png";
+import vintage from "./company/vintage.png";
+import softr from "./company/softr.jpg";
+import avatar from "./Testimonial/avatar.jpg";
+
+
+
 export {
+  avatar,
+  softr,
+  apsis,
+  tib,
+  mysoft,
+  jivta,
+  vintage,
   mohammdpurGovt,
   buet,
   uiu,
