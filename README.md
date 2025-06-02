@@ -41,3 +41,6 @@ cd Mahbub-Alom-Shohag-Portfolio
 npm install
 npm run dev
 ```
+
+### Optional : 
+- **npm run dev -- --host** —   For run the project in your network through wifi 
