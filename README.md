@@ -1,22 +1,8 @@
-# Jisan 3D Portfolio
+# 3D Portfolio
+
+- [Live Link](https://shohagcse.netlify.app/)
 
 A dynamic, 3D portfolio built using React, Three.js, Tailwind CSS, and more. This project provides an immersive experience and showcases various skills with interactive 3D elements.
-
-## 📋 Table of Contents
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Live Link](#live-link)
-
-## 🚨 Tutorial
-
-This repository contains the code for a 3D portfolio. If you prefer visual learning, follow the tutorial to build similar projects step by step.
-
-## 🤖 Introduction
-
-This project provides hands-on experience with 3D libraries and engaging animations. Great for developers looking to enhance their portfolios.
 
 ## ⚙️ Tech Stack
 
@@ -50,7 +36,8 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/mrjisan12/Jisan_3D_Portfolio.git
-cd Jisan_3D_Portfolio
-npm install 
+git clone https://github.com/Eshrak20/Mahbub-Alom-Shohag-Portfolio
+cd Mahbub-Alom-Shohag-Portfolio
+npm install
 npm run dev
+```
