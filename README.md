@@ -12,14 +12,21 @@ A dynamic, 3D portfolio built using React, Three.js, Tailwind CSS, and more. Thi
 - Vite
 - EmailJS
 
-## 🔋 Features
+## Important Packages Used
 
-- Customizable 3D Hero Section
-- Interactive Experience with Animations
-- 3D Skills Section
-- Animated Projects and Testimonials
-- Contact Section with 3D Earth Model
-- Responsive Design for All Devices
+- **react**, **react-dom** — Core React library  
+- **react-router-dom** — For client-side routing  
+- **tailwindcss** — Utility-first CSS framework for styling  
+- **vite** — Development build tool and dev server  
+- **framer-motion** — For animations and gestures  
+- **three** — 3D library for WebGL rendering  
+- **@react-three/fiber** — React renderer for Three.js  
+- **@react-three/drei** — Useful helpers and abstractions for React Three Fiber  
+- **maath** — Math utilities for 3D calculations  
+- **react-tilt** — For tilt hover effects  
+- **react-vertical-timeline-component** — Timeline UI component  
+- **@emailjs/browser** — Email sending from client-side  
+
 
 ## 🤸 Quick Start
 
